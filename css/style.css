@@ -1,0 +1,93 @@
+    body {
+      font-family:verdana;
+      color:#686765;
+      font-size: 18px;
+      background-color: #fff;           
+    } 
+
+    li {
+      list-style: none;
+    } 
+
+    .accordeon_wrapper {
+      margin:0 auto;
+      width:48%;
+      min-width: 520px;
+      margin-top:200px;           
+    }
+
+    .accordeon_p {
+      margin-bottom:30px;
+      text-align:center;      
+    }
+
+    .accordeon_p span {
+      display:inline-block;
+      width:43px;
+      height:39px;
+      background-image: url(../img/accordeon.png);
+      background-position: 0px -183px;
+      background-repeat:no-repeat;
+    }
+
+    .accordeon_test {
+      width:100%;
+      margin:0px;
+      padding:0px;
+    }
+
+    .accordeon_li {
+      margin-bottom: 8px;     
+    }
+
+    .accordeon_test>li>a {
+      display: block;
+      text-decoration: none;
+      background-color: #686765;
+      color: #fff;
+      padding: 17px 39px 17px 24px;
+      border-radius: 30px;
+    }
+
+    .accordeon_test>li:nth-child(2n)>a {
+      background-color: #E7E7E7;
+      color:#686765;    
+    } 
+
+    .accordeon_a.accordeon_active, .accordeon_test>li:nth-child(2n)>a.accordeon_active {
+      background-color: #FE8663;
+      color:#fff;     
+    } 
+
+    .accordeon_ul {
+      overflow:hidden;
+      padding: 0px 24px;
+      height: 0px;  
+      line-height: 1.9em;
+    }
+
+    .accordeon_li {
+      background-color: #E7E7E7;
+      border-radius: 30px;
+    } 
+
+    .accordeon_a {
+      position: relative;
+      background-image: url(../img/accordeon.png);
+      background-position: right -75px;
+      background-repeat:no-repeat;      
+    }
+
+    .accordeon_a.accordeon_active {
+      background-position: right 13px;    
+    } 
+
+    
+    /*браузеры ниже ie8*/
+    .browse-old {
+      position:fixed;
+      right:20px;
+      top:20px;
+      padding:20px;
+      background-color:#ccc;
+    }
